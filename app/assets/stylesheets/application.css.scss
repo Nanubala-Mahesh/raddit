@@ -16,26 +16,42 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-header[role="banner"] {
-  #logo-main {
-    display: block;
-    margin: 20px auto;
+#logo {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding: 15px 0;
+  a {
+  colour: #2F363E;
   }
 }
 
-#navbar-primary.navbar-default {
-  background: transparent;
-  border: none;
-  .navbar-nav { 
-    width: 100%;
-    text-align: center;
-    > li {
-      display: inline-block;
-      float: none;
-      > a {
-        padding-left: 30px;
-        padding-right: 30px;
-        }
-    }
+#main_content {
+  #content {
+  float: none;
+  }
+  padding-bottom: 100px;
+  .link {
+  padding: 2cm 1cm;
+  border-bottom: 1px solid #e9e9e9;
+  .title {
+
+  a {
+  colour: #FF4500;
+  }
+  }
+  }
+  .comments_title {
+  margin-top: 2cm;
+  }
+  #comments {
+  .comment {
+  .padding: 1cm 0;
+  border-top: 1px solid #E9E9E9;
+  .lead {
+  margin-bottom: 0;
+  }
+  }
   }
 }
